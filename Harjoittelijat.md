@@ -2,7 +2,7 @@
 title: Harjoittelijat
 description: 
 published: true
-date: 2025-07-25T19:22:23.287Z
+date: 2025-07-25T19:24:00.689Z
 tags: 
 editor: markdown
 dateCreated: 2025-07-01T11:42:03.659Z
@@ -211,6 +211,7 @@ Pyydä rohkeasti apua tiimiltä ja ohjaajilta!
 
 </div>
 
+
 <!-- yhteystiedot -->
 
 <hr style="margin-top: 3em;">
@@ -254,3 +255,4 @@ Pyydä rohkeasti apua tiimiltä ja ohjaajilta!
     }
   }
 </style>
+
