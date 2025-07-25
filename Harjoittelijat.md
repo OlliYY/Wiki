@@ -2,7 +2,7 @@
 title: Harjoittelijat
 description: 
 published: true
-date: 2025-07-13T16:17:28.243Z
+date: 2025-07-25T19:22:23.287Z
 tags: 
 editor: markdown
 dateCreated: 2025-07-01T11:42:03.659Z
@@ -211,19 +211,46 @@ Pyydä rohkeasti apua tiimiltä ja ohjaajilta!
 
 </div>
 
-<!--yhteytiedot -->
+<!-- yhteystiedot -->
+
 <hr style="margin-top: 3em;">
 
-<div style="max-width: 700px; margin: 2em auto; font-family: sans-serif; color: #333; background: #f5f5f5; padding: 1.5em; border-radius: 8px;">
+<footer style="width: 100%; font-family: sans-serif; color: #fff; background: #00162E; padding: 2em; box-sizing: border-box;" id="contact-info">
 
-  <p>Lapin ammattikorkeakoulu<br>
-  Rovaniemi Campus<br>
-  Jokiväylä 11 
-  96300 Rovaniemi</p>
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: flex-start; max-width: 1200px; margin: 0 auto;">
 
-  <p>Tiimipäällikkö: Pertti Rauhala<br>
-  <p>Wikiin liittyvät asiat: Ville Polvela<br>
-  etunimi.sukunimi(at)lapinamk.fi<br>
+    <!-- Left Column -->
+    <div style="flex: 1 1 300px; padding: 1em; text-align: center;">
+      <p>FrostBit is part of the ICT Engineering Education at the Lapland UAS and the projects are partially funded by the EU.</p>
+      
+      <img src="/lapinamk_white_300px.png" alt="Lapland University of Applied Sciences Logo" width="200" style="max-width: 100%; height: auto; margin: 1em 0;">
+      
+      <a href="https://www.frostbit.fi/en/privacy-policy/" style="color: #fff; text-decoration: underline; display: block; margin: 0 auto;">Privacy policy</a>
+    </div>
 
+    <!-- Right Column -->
+    <div style="flex: 1 1 300px; padding: 1em; text-align: center;">
+      <p>Lapin ammattikorkeakoulu<br>
+      Rovaniemi Campus<br>
+      Jokiväylä 11<br>
+      96300 Rovaniemi</p>
 
-</div>
+      <p>Tiimipäällikkö: Pertti Rauhala</p>
+      <p>Wikiin liittyvät asiat: Ville Polvela</p>
+      <p>etunimi.sukunimi(at)lapinamk.fi</p>
+    </div>
+
+  </div>
+
+</footer>
+
+<style>
+  @media (max-width: 768px) {
+    #contact-info {
+      padding: 1em;
+    }
+    #contact-info div {
+      text-align: center;
+    }
+  }
+</style>
