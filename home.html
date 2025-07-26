@@ -2,7 +2,7 @@
 title: 
 description: 
 published: true
-date: 2025-07-26T13:46:36.714Z
+date: 2025-07-26T13:48:57.739Z
 tags: 
 editor: code
 dateCreated: 2025-07-13T11:10:35.879Z
@@ -38,31 +38,63 @@ dateCreated: 2025-07-13T11:10:35.879Z
 
 <!-- testi -->
 
-
 <!DOCTYPE html>
 <html lang="fi">
 <head>
     <meta charset="UTF-8">
-    <title>Kolme Artikkelia</title>
+    <title>Artikkelikortit</title>
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
         .container {
             display: flex;
             justify-content: center;
             gap: 20px;
-            flex-wrap: wrap; /* Tämä tekee responsiivisuuden */
+            flex-wrap: wrap;
         }
         .card {
-            background: #eee;
-            padding: 20px;
-            width: 250px;
-            text-align: center;
+            background: #ffffff;
+            width: 300px;
             border-radius: 10px;
+            overflow: hidden;
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+        .card-content {
+            padding: 15px;
+            text-align: center;
+        }
+        .card-content h2 {
+            font-size: 1.4em;
+            margin: 10px 0;
+        }
+        .card-content p {
+            color: #555;
+            font-size: 1em;
         }
         .card a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
             text-decoration: none;
-            color: #007bff;
-            font-weight: bold;
+            border-radius: 5px;
+        }
+        .card a:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
@@ -70,19 +102,28 @@ dateCreated: 2025-07-13T11:10:35.879Z
 
 <div class="container">
     <div class="card">
-        <h2>Artikkeli 1</h2>
-        <p>Ensimmäinen artikkeli.</p>
-        <a href="sivu1.html">Lue lisää</a>
+        <img src="https://via.placeholder.com/300x180.png?text=Artikkeli+1" alt="Artikkeli 1">
+        <div class="card-content">
+            <h2>Artikkeli 1</h2>
+            <p>Ensimmäinen artikkeli kuva ja teksti.</p>
+            <a href="sivu1.html">Lue lisää</a>
+        </div>
     </div>
     <div class="card">
-        <h2>Artikkeli 2</h2>
-        <p>Toinen artikkeli.</p>
-        <a href="sivu2.html">Lue lisää</a>
+        <img src="https://via.placeholder.com/300x180.png?text=Artikkeli+2" alt="Artikkeli 2">
+        <div class="card-content">
+            <h2>Artikkeli 2</h2>
+            <p>Toinen artikkeli kuva ja teksti.</p>
+            <a href="sivu2.html">Lue lisää</a>
+        </div>
     </div>
     <div class="card">
-        <h2>Artikkeli 3</h2>
-        <p>Kolmas artikkeli.</p>
-        <a href="sivu3.html">Lue lisää</a>
+        <img src="https://via.placeholder.com/300x180.png?text=Artikkeli+3" alt="Artikkeli 3">
+        <div class="card-content">
+            <h2>Artikkeli 3</h2>
+            <p>Kolmas artikkeli kuva ja teksti.</p>
+            <a href="sivu3.html">Lue lisää</a>
+        </div>
     </div>
 </div>
 
