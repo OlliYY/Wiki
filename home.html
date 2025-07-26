@@ -2,164 +2,91 @@
 title: 
 description: 
 published: true
-date: 2025-07-26T16:02:08.747Z
+date: 2025-07-26T16:03:43.268Z
 tags: 
 editor: code
 dateCreated: 2025-07-13T11:10:35.879Z
 -->
 
-<!DOCTYPE html>
-<html lang="fi">
-<head>
-    <meta charset="UTF-8">
-    <title>Tervetuloa Agile Wiki -sivustolle</title>
-    <style>
-      .card-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    max-width: 1000px;
-    margin: 0 auto;
-}
+<img src="/kuvaetusivulle.jpg" alt="kuvaetusivulle" style="max-width: 100%; height: auto; margin: 1em 0;">
 
-.card {
-    background: #ffffff;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    transition: transform 0.3s;
-    display: flex;
-    flex-direction: column;
-}
+<h1 style="text-align: center;">Tervetuloa Agile Wiki -sivustolle</h1>
 
-.card:hover {
-    transform: translateY(-5px);
-}
+<p style="text-align: center; margin-bottom: 1.5em;">Täältä löydät kaikki ajankohtaiset asiat yms.</p>
 
-.card img {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-}
+<!-- Linkki-kortit -->
+<div style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center;">
 
-.card-content {
-    padding: 15px;
-    text-align: center;
-    flex-grow: 1;
-}
+    <a href="/fi/Harjoittelijat" style="flex: 1 1 250px; max-width: 280px; background-color: #d1e7dd; border-radius: 12px; padding: 2em; text-align: center; text-decoration: none; color: #000; font-weight: bold; transition: background-color 0.2s;">
+        Harjoittelijat
+    </a>
 
-.card-content h2 {
-    font-size: 1.4em;
-    margin: 10px 0;
-}
+    <a href="/fi/Ohjaajat" style="flex: 1 1 250px; max-width: 280px; background-color: #cfe2ff; border-radius: 12px; padding: 2em; text-align: center; text-decoration: none; color: #000; font-weight: bold; transition: background-color 0.2s;">
+        Ohjaajat
+    </a>
 
-.card-content p {
-    color: #555;
-    font-size: 1em;
-}
+    <a href="/fi/Projektityoskentely" style="flex: 1 1 250px; max-width: 280px; background-color: #fff3cd; border-radius: 12px; padding: 2em; text-align: center; text-decoration: none; color: #000; font-weight: bold; transition: background-color 0.2s;">
+        Projektityöskentely
+    </a>
 
-.card a {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s, transform 0.3s;
-}
+</div>
 
-.card a:hover {
-    background-color: #0056b3;
-    transform: scale(1.05);
-}
-       
-    </style>
-</head>
-<body>
+<!-- Artikkelikortit -->
+<h1 style="text-align: center; margin-top: 3em;">Artikkelit</h1>
 
-    <img src="/kuvaetusivulle.jpg" alt="kuvaetusivulle" style="max-width: 100%; height: auto; margin: 1em 0;">
+<div class="card-container">
+    <div class="card">
+        <img src="https://via.placeholder.com/300x180.png?text=Artikkeli+1" alt="Artikkeli 1">
+        <div class="card-content">
+            <h2>Artikkeli 1</h2>
+            <p>Ensimmäinen artikkeli kuva ja teksti.</p>
+            <a href="sivu1.html">Lue lisää</a>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://via.placeholder.com/300x180.png?text=Artikkeli+2" alt="Artikkeli 2">
+        <div class="card-content">
+            <h2>Artikkeli 2</h2>
+            <p>Toinen artikkeli kuva ja teksti.</p>
+            <a href="sivu2.html">Lue lisää</a>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://via.placeholder.com/300x180.png?text=Artikkeli+3" alt="Artikkeli 3">
+        <div class="card-content">
+            <h2>Artikkeli 3</h2>
+            <p>Kolmas artikkeli kuva ja teksti.</p>
+            <a href="sivu3.html">Lue lisää</a>
+        </div>
+    </div>
+</div>
 
-    <h1 style="text-align: center;">Tervetuloa Agile Wiki -sivustolle</h1>
+<!-- Footer -->
+<hr style="margin-top: 3em;">
 
-    <p style="text-align: center; margin-bottom: 1.5em;">Täältä löydät kaikki ajankohtaiset asiat yms.</p>
+<footer style="width: 100%; font-family: sans-serif; color: #fff; background: #00162E; padding: 2em; box-sizing: border-box;" id="contact-info">
 
-    <!-- Linkki-kortit -->
-    <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center;">
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: flex-start; max-width: 1200px; margin: 0 auto;">
 
-        <a href="/fi/Harjoittelijat" style="flex: 1 1 250px; max-width: 280px; background-color: #d1e7dd; border-radius: 12px; padding: 2em; text-align: center; text-decoration: none; color: #000; font-weight: bold; transition: background-color 0.2s;">
-            Harjoittelijat
-        </a>
+        <!-- Left Column -->
+        <div style="flex: 1 1 300px; padding: 1em; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
+            <p>FrostBit is part of the ICT Engineering Education at the Lapland UAS and the projects are partially funded by the EU.</p>
+            <img src="/lapinamk_white_300px.png" alt="Lapland University of Applied Sciences Logo" width="200" style="max-width: 100%; height: auto; margin: 1em 0;">
+            <a href="https://www.frostbit.fi/en/privacy-policy/" style="color: #fff; text-decoration: underline; display: inline-block;">Privacy policy</a>
+        </div>
 
-        <a href="/fi/Ohjaajat" style="flex: 1 1 250px; max-width: 280px; background-color: #cfe2ff; border-radius: 12px; padding: 2em; text-align: center; text-decoration: none; color: #000; font-weight: bold; transition: background-color 0.2s;">
-            Ohjaajat
-        </a>
+        <!-- Right Column -->
+        <div style="flex: 1 1 300px; padding: 1em; text-align: center;">
+            <p>Lapin ammattikorkeakoulu<br>
+            Rovaniemi Campus<br>
+            Jokiväylä 11<br>
+            96300 Rovaniemi</p>
 
-        <a href="/fi/Projektityoskentely" style="flex: 1 1 250px; max-width: 280px; background-color: #fff3cd; border-radius: 12px; padding: 2em; text-align: center; text-decoration: none; color: #000; font-weight: bold; transition: background-color 0.2s;">
-            Projektityöskentely
-        </a>
+            <p>Tiimipäällikkö: Pertti Rauhala</p>
+            <p>Wikiin liittyvät asiat: Ville Polvela</p>
+            <p>etunimi.sukunimi(at)lapinamk.fi</p>
+        </div>
 
     </div>
 
-    <!-- Artikkelikortit -->
-    <h1 style="text-align: center; margin-top: 3em;">Artikkelit</h1>
-
-    <div class="card-container">
-        <div class="card">
-            <img src="https://via.placeholder.com/300x180.png?text=Artikkeli+1" alt="Artikkeli 1">
-            <div class="card-content">
-                <h2>Artikkeli 1</h2>
-                <p>Ensimmäinen artikkeli kuva ja teksti.</p>
-                <a href="sivu1.html">Lue lisää</a>
-            </div>
-        </div>
-        <div class="card">
-            <img src="https://via.placeholder.com/300x180.png?text=Artikkeli+2" alt="Artikkeli 2">
-            <div class="card-content">
-                <h2>Artikkeli 2</h2>
-                <p>Toinen artikkeli kuva ja teksti.</p>
-                <a href="sivu2.html">Lue lisää</a>
-            </div>
-        </div>
-        <div class="card">
-            <img src="https://via.placeholder.com/300x180.png?text=Artikkeli+3" alt="Artikkeli 3">
-            <div class="card-content">
-                <h2>Artikkeli 3</h2>
-                <p>Kolmas artikkeli kuva ja teksti.</p>
-                <a href="sivu3.html">Lue lisää</a>
-            </div>
-        </div>
-    </div>
-
-    <!-- Footer -->
-    <hr style="margin-top: 3em;">
-
-    <footer style="width: 100%; font-family: sans-serif; color: #fff; background: #00162E; padding: 2em; box-sizing: border-box;" id="contact-info">
-
-        <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: flex-start; max-width: 1200px; margin: 0 auto;">
-
-            <!-- Left Column -->
-            <div style="flex: 1 1 300px; padding: 1em; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
-                <p>FrostBit is part of the ICT Engineering Education at the Lapland UAS and the projects are partially funded by the EU.</p>
-                <img src="/lapinamk_white_300px.png" alt="Lapland University of Applied Sciences Logo" width="200" style="max-width: 100%; height: auto; margin: 1em 0;">
-                <a href="https://www.frostbit.fi/en/privacy-policy/" style="color: #fff; text-decoration: underline; display: inline-block;">Privacy policy</a>
-            </div>
-
-            <!-- Right Column -->
-            <div style="flex: 1 1 300px; padding: 1em; text-align: center;">
-                <p>Lapin ammattikorkeakoulu<br>
-                Rovaniemi Campus<br>
-                Jokiväylä 11<br>
-                96300 Rovaniemi</p>
-
-                <p>Tiimipäällikkö: Pertti Rauhala</p>
-                <p>Wikiin liittyvät asiat: Ville Polvela</p>
-                <p>etunimi.sukunimi(at)lapinamk.fi</p>
-            </div>
-
-        </div>
-
-    </footer>
-
-</body>
-</html>
+</footer>
