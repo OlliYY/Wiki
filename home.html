@@ -2,7 +2,7 @@
 title: 
 description: 
 published: true
-date: 2025-07-26T13:41:58.107Z
+date: 2025-07-26T13:43:11.836Z
 tags: 
 editor: code
 dateCreated: 2025-07-13T11:10:35.879Z
@@ -35,13 +35,13 @@ dateCreated: 2025-07-13T11:10:35.879Z
   </a>
 
 </div>
-<!-- testi -->
 
+<!-- testi -->
 <!DOCTYPE html>
 <html lang="fi">
 <head>
     <meta charset="UTF-8">
-    <title>Artikkelilaatikot</title>
+    <title>Artikkeli Laatikot</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -50,20 +50,22 @@ dateCreated: 2025-07-13T11:10:35.879Z
             padding: 20px;
         }
 
-        .container {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
-            max-width: 1200px;
-            margin: 0 auto;
+        .scroll-container {
+            overflow-x: auto;
+            white-space: nowrap;
         }
 
         .box {
+            display: inline-block;
             background-color: white;
+            width: 300px;
+            height: 200px;
+            margin-right: 20px;
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-            text-align: center;
+            vertical-align: top;
+            box-sizing: border-box;
         }
 
         .box h2 {
@@ -72,7 +74,7 @@ dateCreated: 2025-07-13T11:10:35.879Z
     </style>
 </head>
 <body>
-    <div class="container">
+    <div class="scroll-container">
         <div class="box">
             <h2>Artikkeli 1</h2>
             <p>Tämä on ensimmäinen artikkeli.</p>
