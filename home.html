@@ -2,7 +2,7 @@
 title: 
 description: 
 published: true
-date: 2025-07-26T13:43:11.836Z
+date: 2025-07-26T13:44:06.252Z
 tags: 
 editor: code
 dateCreated: 2025-07-13T11:10:35.879Z
@@ -41,7 +41,7 @@ dateCreated: 2025-07-13T11:10:35.879Z
 <html lang="fi">
 <head>
     <meta charset="UTF-8">
-    <title>Artikkeli Laatikot</title>
+    <title>3x2 Artikkelilaatikot</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -50,31 +50,37 @@ dateCreated: 2025-07-13T11:10:35.879Z
             padding: 20px;
         }
 
-        .scroll-container {
-            overflow-x: auto;
-            white-space: nowrap;
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
         }
 
         .box {
-            display: inline-block;
             background-color: white;
-            width: 300px;
-            height: 200px;
-            margin-right: 20px;
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-            vertical-align: top;
-            box-sizing: border-box;
+            text-align: center;
         }
 
         .box h2 {
             margin-top: 0;
         }
+
+        /* Responsiivisuus (valinnainen jos haluat että 3 pysyy rinnakkain aina) */
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: repeat(3, 1fr); /* Pysyy 3 rinnakkain */
+            }
+        }
+
     </style>
 </head>
 <body>
-    <div class="scroll-container">
+    <div class="container">
         <div class="box">
             <h2>Artikkeli 1</h2>
             <p>Tämä on ensimmäinen artikkeli.</p>
@@ -102,6 +108,7 @@ dateCreated: 2025-07-13T11:10:35.879Z
     </div>
 </body>
 </html>
+
 
 
 <!-- yhteystiedot -->
