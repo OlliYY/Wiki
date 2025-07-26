@@ -2,7 +2,7 @@
 title: 
 description: 
 published: true
-date: 2025-07-26T13:39:37.278Z
+date: 2025-07-26T13:40:39.704Z
 tags: 
 editor: code
 dateCreated: 2025-07-13T11:10:35.879Z
@@ -35,33 +35,53 @@ dateCreated: 2025-07-13T11:10:35.879Z
   </a>
 
 </div>
+
 <!DOCTYPE html>
 <html lang="fi">
 <head>
     <meta charset="UTF-8">
-    <title>Artikkelilaatikot</title>
+    <title>Artikkeli Laatikot</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f0f0f0;
+            margin: 0;
             padding: 20px;
         }
+
         .container {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
+            display: flex;
+            flex-wrap: wrap;
             max-width: 1000px;
             margin: 0 auto;
         }
+
         .box {
             background-color: white;
+            width: calc(33.333% - 20px);
+            margin: 10px;
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            box-sizing: border-box;
             text-align: center;
         }
+
         .box h2 {
             margin-top: 0;
+        }
+
+        @media (max-width: 768px) {
+            .box {
+                width: calc(50% - 20px);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .box {
+                width: 100%;
+                margin: 10px 0;
+            }
         }
     </style>
 </head>
