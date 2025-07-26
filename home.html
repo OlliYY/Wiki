@@ -2,7 +2,7 @@
 title: 
 description: 
 published: true
-date: 2025-07-26T13:44:06.252Z
+date: 2025-07-26T13:45:22.242Z
 tags: 
 editor: code
 dateCreated: 2025-07-13T11:10:35.879Z
@@ -41,7 +41,7 @@ dateCreated: 2025-07-13T11:10:35.879Z
 <html lang="fi">
 <head>
     <meta charset="UTF-8">
-    <title>3x2 Artikkelilaatikot</title>
+    <title>Artikkeli Laatikoita</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -49,66 +49,83 @@ dateCreated: 2025-07-13T11:10:35.879Z
             margin: 0;
             padding: 20px;
         }
-
         .container {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            display: flex;
             gap: 20px;
-            max-width: 1200px;
-            margin: 0 auto;
+            justify-content: center;
         }
-
-        .box {
+        .card {
             background-color: white;
-            padding: 20px;
             border-radius: 10px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            width: 300px;
             text-align: center;
+            overflow: hidden;
+            transition: transform 0.3s;
         }
-
-        .box h2 {
-            margin-top: 0;
+        .card:hover {
+            transform: translateY(-5px);
         }
-
-        /* Responsiivisuus (valinnainen jos haluat että 3 pysyy rinnakkain aina) */
-        @media (max-width: 768px) {
-            .container {
-                grid-template-columns: repeat(3, 1fr); /* Pysyy 3 rinnakkain */
-            }
+        .card img {
+            width: 100%;
+            height: auto;
         }
-
+        .card-content {
+            padding: 15px;
+        }
+        .card-content h2 {
+            font-size: 1.5em;
+            margin: 0 0 10px 0;
+        }
+        .card-content p {
+            color: #555;
+            font-size: 1em;
+        }
+        .card a {
+            display: inline-block;
+            margin: 15px 0;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .card a:hover {
+            background-color: #0056b3;
+        }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="box">
+
+<div class="container">
+    <div class="card">
+        <img src="https://via.placeholder.com/300x150" alt="Artikkeli 1">
+        <div class="card-content">
             <h2>Artikkeli 1</h2>
             <p>Tämä on ensimmäinen artikkeli.</p>
-        </div>
-        <div class="box">
-            <h2>Artikkeli 2</h2>
-            <p>Tämä on toinen artikkeli.</p>
-        </div>
-        <div class="box">
-            <h2>Artikkeli 3</h2>
-            <p>Tämä on kolmas artikkeli.</p>
-        </div>
-        <div class="box">
-            <h2>Artikkeli 4</h2>
-            <p>Tämä on neljäs artikkeli.</p>
-        </div>
-        <div class="box">
-            <h2>Artikkeli 5</h2>
-            <p>Tämä on viides artikkeli.</p>
-        </div>
-        <div class="box">
-            <h2>Artikkeli 6</h2>
-            <p>Tämä on kuudes artikkeli.</p>
+            <a href="sivu1.html">Lue lisää</a>
         </div>
     </div>
+    <div class="card">
+        <img src="https://via.placeholder.com/300x150" alt="Artikkeli 2">
+        <div class="card-content">
+            <h2>Artikkeli 2</h2>
+            <p>Tämä on toinen artikkeli.</p>
+            <a href="sivu2.html">Lue lisää</a>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://via.placeholder.com/300x150" alt="Artikkeli 3">
+        <div class="card-content">
+            <h2>Artikkeli 3</h2>
+            <p>Tämä on kolmas artikkeli.</p>
+            <a href="sivu3.html">Lue lisää</a>
+        </div>
+    </div>
+</div>
+
 </body>
 </html>
-
 
 
 <!-- yhteystiedot -->
