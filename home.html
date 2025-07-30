@@ -2,7 +2,7 @@
 title: 
 description: 
 published: true
-date: 2025-07-30T20:11:52.019Z
+date: 2025-07-30T20:12:35.630Z
 tags: 
 editor: code
 dateCreated: 2025-07-13T11:10:35.879Z
@@ -43,7 +43,79 @@ dateCreated: 2025-07-13T11:10:35.879Z
     </li>
   </ul>
 </details>
+<style>
+  .menu-wrapper {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+    width: 250px;
+  }
 
+  .menu {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1em;
+    background: #f7f9fb;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    overflow: hidden;
+  }
+
+  .menu summary {
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+
+  .menu[open] {
+    width: 250px;
+  }
+
+  .menu ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 1em;
+  }
+
+  .menu a {
+    text-decoration: none;
+    color: #333;
+    padding: 0.5em 1em;
+    display: block;
+    border-radius: 6px;
+    transition: background 0.2s;
+  }
+
+  .menu a:hover {
+    background: #e0eaf6;
+  }
+
+  .menu summary::after {
+    content: "▼";
+    margin-left: auto;
+    font-size: 0.8em;
+  }
+
+  .menu[open] summary::after {
+    content: "▲";
+  }
+</style>
+
+<div class="menu-wrapper">
+  <details class="menu">
+    <summary>📋 Menu</summary>
+    <ul>
+      <li><a href="/fi/Harjoittelijat">Harjoittelijat</a></li>
+      <li><a href="/fi/Ohjaajat">Ohjaajat</a></li>
+      <li><a href="/fi/Projektityoskentely">Projektityöskentely</a></li>
+      <li><a href="#Artikkelit">Artikkelit</a></li>
+      <li><a href="#contact-info">Yhteystiedot</a></li>
+    </ul>
+  </details>
+</div>
 <style>
   details[open] summary::after {
     content: "▲";
