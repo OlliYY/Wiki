@@ -1,227 +1,315 @@
 <!--
-title: home en 
+title: home fi
 description: 
 published: true
-date: 2025-08-01T13:54:49.443Z
+date: 2025-08-01T13:55:21.606Z
 tags: 
 editor: code
-dateCreated: 2025-06-14T15:31:32.260Z
+dateCreated: 2025-07-13T11:10:35.879Z
 -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fi">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Agile Wiki - Homepage</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: sans-serif;
-      background: #f9f9f9;
-      color: #333;
-      padding: 0;
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-    }
-
-    main {
-      flex: 1;
-      padding: 0 1em 2em;
-    }
-
-    img {
-      max-width: 100%;
-      height: auto;
-      margin: 1em 0;
-      display: block;
-    }
-
-    h1 {
-      text-align: center;
-      margin-top: 3em;
-      margin-bottom: 0.5em;
-      color: #005a9c;
-    }
-
-    p.intro {
-      text-align: center;
-      margin-bottom: 2em;
-      font-size: 1.1em;
-      color: #555;
-    }
-
-    .link-cards {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 1.5rem;
-      justify-items: center;
-      margin-bottom: 3em;
-      padding: 0 1em;
-    }
-
-    .link-cards a {
-      width: 100%;
-      max-width: 280px;
-      border-radius: 12px;
-      padding: 2em;
-      text-align: center;
-      text-decoration: none;
-      color: #000;
-      font-weight: bold;
-      transition: background-color 0.2s;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-      user-select: none;
-    }
-
-    .link-cards a:hover {
-      filter: brightness(95%);
-    }
-
-    .interns {
-      background-color: #d1e7dd;
-    }
-
-    .mentors {
-      background-color: #cfe2ff;
-    }
-
-    .project-work {
-      background-color: #fff3cd;
-    }
-
-    .card-container {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 2rem;
-      justify-content: center;
-      max-width: 1000px;
-      margin: 0 auto 3em;
-    }
-
-    .card {
-      background: white;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-      overflow: hidden;
-      width: 300px;
-      display: flex;
-      flex-direction: column;
-      transition: transform 0.2s;
-    }
-
-    .card:hover {
-      transform: translateY(-5px);
-    }
-
-    .card img {
-      width: 100%;
-      height: auto;
-      object-fit: cover;
-    }
-
-    .card-content {
-      padding: 1em;
-      flex-grow: 1;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-    }
-
-    .card-content h2 {
-      margin: 0 0 0.5em;
-      color: #005a9c;
-    }
-
-    .card-content p {
-      flex-grow: 1;
-      margin-bottom: 1em;
-      color: #555;
-    }
-
-    .card-content a {
-      align-self: flex-start;
-      text-decoration: none;
-      color: #007BFF;
-      font-weight: bold;
-      transition: color 0.2s;
-    }
-
-    .card-content a:hover {
-      color: #0056b3;
-      text-decoration: underline;
-    }
-
-    footer {
-      background: #005a9c;
-      color: white;
-      text-align: center;
-      padding: 1em;
-      margin-top: auto;
-    }
-
-    details {
-      margin: 1em 0;
-    }
-  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
-
 <body>
-  <main>
-    <img src="/kuvaetusivulle.jpg" alt="Homepage Image" />
 
-    <details>
-      <summary>Table of Contents</summary>
-      <ul>
-        <li><a href="/en/Harjoittelijat">Interns</a></li>
-        <li><a href="/en/Mentors">Mentors</a></li>
-        <li><a href="/en/ProjectWork">Project Work</a></li>
-        <li><a href="#Articles">Articles</a></li>
-        <li><a href="#contact-info">Contact Information</a></li>
-      </ul>
-    </details>
+<img src="/kuvaetusivulle.jpg" alt="kuvaetusivulle" style="max-width: 100%; height: auto; margin: 1em 0;">
+<!-- Sisällysluettelo (avattava) -->
 
-    <h1>Welcome to Agile Wiki</h1>
-    <p class="intro">Here you'll find all the latest information and more.</p>
+<details style="margin-bottom: 2em; font-family: sans-serif;">
+  <summary style="font-weight: bold; font-size: 1.2em; cursor: pointer;">Sisällysluettelo</summary>
+  <ul style="list-style: none; padding-left: 1em; margin-top: 1em;">
+    <li><a href="/fi/Harjoittelijat" style="text-decoration: none; color: #007BFF;">Harjoittelijat</a></li>
+    <li><a href="/fi/Ohjaajat" style="text-decoration: none; color: #007BFF;">Ohjaajat</a></li>
+    <li><a href="/fi/Projektityoskentely" style="text-decoration: none; color: #007BFF;">Projektityöskentely</a></li>
+    <li><a href="#Artikkelit" style="text-decoration: none; color: #007BFF;">Artikkelit</a></li>
+    <li><a href="#contact-info" style="text-decoration: none; color: #007BFF;">Yhteystiedot</a></li>
+  </ul>
+</details>
+<!-- Menu (Avattava valikko) -->
+<details style="margin-bottom: 2em; font-family: sans-serif; border: 1px solid #ccc; border-radius: 8px; padding: 1em; background: #f7f9fb; max-width: 300px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+  <summary style="font-weight: bold; font-size: 1.2em; cursor: pointer; display: flex; align-items: center;">
+    📋 Menu
+  </summary>
+  <ul style="list-style: none; padding-left: 0; margin-top: 1em;">
+    <li style="margin-bottom: 0.5em;">
+      <a href="/fi/Harjoittelijat" style="text-decoration: none; color: #333; padding: 0.5em 1em; display: block; border-radius: 6px; transition: background 0.2s;">Harjoittelijat</a>
+    </li>
+    <li style="margin-bottom: 0.5em;">
+      <a href="/fi/Ohjaajat" style="text-decoration: none; color: #333; padding: 0.5em 1em; display: block; border-radius: 6px; transition: background 0.2s;">Ohjaajat</a>
+    </li>
+    <li style="margin-bottom: 0.5em;">
+      <a href="/fi/Projektityoskentely" style="text-decoration: none; color: #333; padding: 0.5em 1em; display: block; border-radius: 6px; transition: background 0.2s;">Projektityöskentely</a>
+    </li>
+    <li style="margin-bottom: 0.5em;">
+      <a href="#Artikkelit" style="text-decoration: none; color: #333; padding: 0.5em 1em; display: block; border-radius: 6px; transition: background 0.2s;">Artikkelit</a>
+    </li>
+    <li>
+      <a href="#contact-info" style="text-decoration: none; color: #333; padding: 0.5em 1em; display: block; border-radius: 6px; transition: background 0.2s;">Yhteystiedot</a>
+    </li>
+  </ul>
+</details>
+<style>
+  .menu-wrapper {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+    width: 250px;
+  }
 
-    <div class="link-cards">
-      <a href="/en/Harjoittelijat" class="interns">Interns</a>
-      <a href="/en/Ohjaajat" class="mentors">Mentors</a>
-      <a href="/en/Projektityoskentely" class="project-work">Project Work</a>
+  .menu {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1em;
+    background: #f7f9fb;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    overflow: hidden;
+  }
+
+  .menu summary {
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+
+  .menu[open] {
+    width: 250px;
+  }
+
+  .menu ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 1em;
+  }
+
+  .menu a {
+    text-decoration: none;
+    color: #333;
+    padding: 0.5em 1em;
+    display: block;
+    border-radius: 6px;
+    transition: background 0.2s;
+  }
+
+  .menu a:hover {
+    background: #e0eaf6;
+  }
+
+  .menu summary::after {
+    content: "▼";
+    margin-left: auto;
+    font-size: 0.8em;
+  }
+
+  .menu[open] summary::after {
+    content: "▲";
+  }
+</style>
+
+<div class="menu-wrapper">
+  <details class="menu">
+    <summary>📋 Menu</summary>
+    <ul>
+      <li><a href="/fi/Harjoittelijat">Harjoittelijat</a></li>
+      <li><a href="/fi/Ohjaajat">Ohjaajat</a></li>
+      <li><a href="/fi/Projektityoskentely">Projektityöskentely</a></li>
+      <li><a href="#Artikkelit">Artikkelit</a></li>
+      <li><a href="#contact-info">Yhteystiedot</a></li>
+    </ul>
+  </details>
+</div>
+<style>
+  details[open] summary::after {
+    content: "▲";
+    margin-left: auto;
+    font-size: 0.8em;
+  }
+  details summary::after {
+    content: "▼";
+    margin-left: auto;
+    font-size: 0.8em;
+  }
+  details a:hover {
+    background: #e0eaf6;
+  }
+</style>
+<style>
+  details[open] summary::after {
+    content: "▲";
+    margin-left: auto;
+    font-size: 0.8em;
+  }
+  details summary::after {
+    content: "▼";
+    margin-left: auto;
+    font-size: 0.8em;
+  }
+  details a:hover {
+    background: #e0eaf6;
+  }
+</style>
+<style>
+  /* Perusresetit */
+  body {
+    margin: 0;
+    font-family: sans-serif;
+  }
+
+  /* Piilotettu checkbox, jolla ohjataan menua */
+  #menu-toggle {
+    display: none;
+  }
+
+  /* Overlay taustalle */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    z-index: 900;
+  }
+
+  #menu-toggle:checked ~ .overlay {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  /* Menu-paneeli */
+  .side-menu {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background: #f7f9fb;
+    box-shadow: 2px 0 10px rgba(0,0,0,0.2);
+    padding: 2em 1em;
+    box-sizing: border-box;
+    transition: left 0.3s ease;
+    z-index: 1000;
+  }
+
+  #menu-toggle:checked ~ .side-menu {
+    left: 0;
+  }
+
+  .menu-btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1100;
+    background: #007BFF;
+    color: #fff;
+    padding: 0.5em 1em;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    user-select: none;
+  }
+
+  .side-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 2em;
+  }
+
+  .side-menu a {
+    display: block;
+    padding: 0.5em 0.8em;
+    text-decoration: none;
+    color: #333;
+    border-radius: 6px;
+    transition: background 0.2s;
+  }
+
+  .side-menu a:hover {
+    background: #e0eaf6;
+  }
+</style>
+
+<!-- Menu Toggle (Hidden Checkbox) -->
+<input type="checkbox" id="menu-toggle">
+
+<!-- Menu Button -->
+<label for="menu-toggle" class="menu-btn">📋 Menu</label>
+
+<!-- Overlay -->
+<label for="menu-toggle" class="overlay"></label>
+
+<!-- Slide-in Menu Panel -->
+<nav class="side-menu">
+  <h2 style="margin-top: 0;">Menu</h2>
+  <ul>
+    <li><a href="/fi/Harjoittelijat">Harjoittelijat</a></li>
+    <li><a href="/fi/Ohjaajat">Ohjaajat</a></li>
+    <li><a href="/fi/Projektityoskentely">Projektityöskentely</a></li>
+    <li><a href="#Artikkelit">Artikkelit</a></li>
+    <li><a href="#contact-info">Yhteystiedot</a></li>
+  </ul>
+</nav>
+
+<h1 style="text-align: center;">Tervetuloa Agile Wiki -sivustolle</h1>
+
+<p style="text-align: center; margin-bottom: 1.5em;">Täältä löydät kaikki ajankohtaiset asiat yms.</p>
+
+<!-- Linkki-kortit -->
+<div style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center;">
+
+    <a href="/fi/Harjoittelijat" style="flex: 1 1 250px; max-width: 280px; background-color: #d1e7dd; border-radius: 12px; padding: 2em; text-align: center; text-decoration: none; color: #000; font-weight: bold; transition: background-color 0.2s;">
+        Harjoittelijat
+    </a>
+
+    <a href="/fi/Ohjaajat" style="flex: 1 1 250px; max-width: 280px; background-color: #cfe2ff; border-radius: 12px; padding: 2em; text-align: center; text-decoration: none; color: #000; font-weight: bold; transition: background-color 0.2s;">
+        Ohjaajat
+    </a>
+
+    <a href="/fi/Projektityoskentely" style="flex: 1 1 250px; max-width: 280px; background-color: #fff3cd; border-radius: 12px; padding: 2em; text-align: center; text-decoration: none; color: #000; font-weight: bold; transition: background-color 0.2s;">
+        Projektityöskentely
+    </a>
+
+</div>
+
+<!-- Artikkelikortit -->
+<!--<h1 style="text-align: center; margin-top: 3em;">Artikkelit</h1-->-->
+<h1 id="Artikkelit" style="text-align: center; margin-top: 3em;">Artikkelit</h1>
+<div class="card-container">
+    <div class="card">
+        <img src="/chatgpt_image_26._heinäk._2025_klo_19.12.23.png" alt="Artikkeli 1" />
+        <div class="card-content">
+            <h2>Artikkeli 1</h2>
+            <p>Ensimmäinen artikkeli aiheesta ohjelmistokehitys.</p>
+            <a href="sivu1.html">Lue lisää</a>
+        </div>
     </div>
-
-    <h1 id="Articles">Articles</h1>
-    <div class="card-container">
-      <div class="card">
-        <img src="/chatgpt_image_26._heinäk._2025_klo_19.12.23.png" alt="Article 1" />
+    <div class="card">
+        <img src="/chatgpt_image_26._heinäk._2025_klo_19.16.52.png" alt="Artikkeli 2" />
         <div class="card-content">
-          <h2>Article 1</h2>
-          <p>The first article about software development.</p>
-          <a href="page1.html">Read more</a>
+            <h2>Artikkeli 2</h2>
+            <p>Tiimityöskentelyn parhaat käytännöt IT-projekteissa.</p>
+            <a href="sivu2.html">Lue lisää</a>
         </div>
-      </div>
-
-      <div class="card">
-        <img src="/chatgpt_image_26._heinäk._2025_klo_19.16.52.png" alt="Article 2" />
-        <div class="card-content">
-          <h2>Article 2</h2>
-          <p>Best practices for teamwork in IT projects.</p>
-          <a href="page2.html">Read more</a>
-        </div>
-      </div>
-
-      <div class="card">
-        <img src="/chatgpt_image_26._heinäk._2025_klo_19.17.03.png" alt="Article 3" />
-        <div class="card-content">
-          <h2>Article 3</h2>
-          <p>Project planning and sprint management.</p>
-          <a href="page3.html">Read more</a>
-        </div>
-      </div>
     </div>
-  </main>
+    <div class="card">
+        <img src="/chatgpt_image_26._heinäk._2025_klo_19.17.03.png" alt="chatgpt_image_26._heinäk._2025_klo_19.17.03.png" />
+        <div class="card-content">
+            <h2>Artikkeli 3</h2>
+            <p>Projektisuunnittelu ja sprinttien hallinta.</p>
+            <a href="sivu3.html">Lue lisää</a>
+        </div>
+    </div>
+</div>
 </body>
 </html>
-
-
