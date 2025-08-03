@@ -1,0 +1,118 @@
+<!--
+title: Article 1
+description: 
+published: true
+date: 2025-08-03T11:15:51.491Z
+tags: 
+editor: code
+dateCreated: 2025-08-03T11:15:51.491Z
+-->
+
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <title>Ohjelmistokehitys / Software Development</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1 {
+            color: #0057b8;
+        }
+        h2 {
+            color: #0072ce;
+        }
+        p {
+            max-width: 800px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        .language-switcher {
+            margin-bottom: 20px;
+        }
+        .language-switcher button {
+            padding: 10px 20px;
+            margin-right: 10px;
+            cursor: pointer;
+            background-color: #0072ce;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        .language-section {
+            display: none;
+        }
+        .language-section.active {
+            display: block;
+        }
+    </style>
+    <script>
+        function switchLanguage(lang) {
+            document.querySelectorAll('.language-section').forEach(section => {
+                section.classList.remove('active');
+            });
+            document.getElementById(lang).classList.add('active');
+        }
+    </script>
+</head>
+<body>
+
+    <div class="language-switcher">
+        <button onclick="switchLanguage('fi')">Suomeksi</button>
+        <button onclick="switchLanguage('en')">In English</button>
+    </div>
+
+    <!-- Finnish Section -->
+    <div id="fi" class="language-section active">
+        <h1>Ohjelmistokehitys – Johdanto</h1>
+        <img src="https://via.placeholder.com/800x400?text=Ohjelmistokehitys" alt="Ohjelmistokehitys">
+        <p>Ohjelmistokehitys on prosessi, jossa suunnitellaan, kehitetään, testataan ja ylläpidetään ohjelmistoja...</p>
+        <h2>Mitä ohjelmistokehitys on?</h2>
+        <p>Ohjelmistokehityksellä tarkoitetaan järjestelmällistä lähestymistapaa ohjelmistojen luomiseen...</p>
+        <h2>Ohjelmistokehityksen vaiheet</h2>
+        <ul>
+            <li><strong>Vaatimusten määrittely:</strong> Mitä ohjelmiston tulee tehdä?</li>
+            <li><strong>Suunnittelu:</strong> Arkkitehtuurin ja teknisten ratkaisujen suunnittelu.</li>
+            <li><strong>Toteutus:</strong> Varsinainen koodaus ja ohjelmoinnin tekeminen.</li>
+            <li><strong>Testaus:</strong> Virheiden ja ongelmien etsiminen ja korjaaminen.</li>
+            <li><strong>Ylläpito:</strong> Ohjelmiston päivittäminen ja kehittäminen käytön aikana.</li>
+        </ul>
+        <h2>Ketterä ohjelmistokehitys</h2>
+        <p>Ketterä ohjelmistokehitys on joustava ja iteratiivinen lähestymistapa...</p>
+        <h2>Yhteenveto</h2>
+        <p>Ohjelmistokehitys on monivaiheinen ja jatkuvasti kehittyvä prosessi...</p>
+    </div>
+
+    <!-- English Section -->
+    <div id="en" class="language-section">
+        <h1>Software Development – Introduction</h1>
+        <img src="https://via.placeholder.com/800x400?text=Software+Development" alt="Software Development">
+        <p>Software development is the process of designing, developing, testing, and maintaining software applications...</p>
+        <h2>What is Software Development?</h2>
+        <p>Software development refers to a systematic approach to creating software systems...</p>
+        <h2>Phases of Software Development</h2>
+        <ul>
+            <li><strong>Requirements Analysis:</strong> What should the software do?</li>
+            <li><strong>Design:</strong> Planning the architecture and technical solutions.</li>
+            <li><strong>Implementation:</strong> Actual coding and programming.</li>
+            <li><strong>Testing:</strong> Finding and fixing bugs and issues.</li>
+            <li><strong>Maintenance:</strong> Updating and improving the software during its lifecycle.</li>
+        </ul>
+        <h2>Agile Software Development</h2>
+        <p>Agile software development is a flexible and iterative approach...</p>
+        <h2>Summary</h2>
+        <p>Software development is a multi-phase and continuously evolving process...</p>
+    </div>
+
+</body>
+</html>
