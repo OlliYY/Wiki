@@ -2,13 +2,15 @@
 title: 
 description: 
 published: true
-date: 2025-08-14T09:39:24.244Z
+date: 2025-08-14T09:40:07.957Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-14T09:39:24.244Z
 ---
 
-# Projektiryhmän roolit 
+# Projektiryhmän jäsenien roolien selitys
+
+## Projektiryhmän roolit 
 
 Projektiryhmien roolit vaihtelevat ryhmän koon ja projektin aiheen mukaan. Tällä sivulla esitetään esimerkki neljän hengen ryhmän roolijaosta sovelluskehityksessä. 
 
