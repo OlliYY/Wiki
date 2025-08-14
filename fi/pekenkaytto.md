@@ -2,7 +2,7 @@
 title: 
 description: 
 published: true
-date: 2025-08-14T08:31:42.353Z
+date: 2025-08-14T08:33:56.230Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-14T06:41:43.683Z
@@ -70,7 +70,7 @@ Mene projektin sivulle ja valitse vasemmalta **Manage** ja **Members**.
 
 Hae kutsuttava käyttäjä käyttäjänimellä tai syötä sähköpostiosoite, niin kutsu lähetetään sinne. Käytä Lapin AMK:n tapauksessa opiskelijoiden ja henkilöstön @lapinamk.fi-päätteisiä sähköposteja. Sen jälkeen valitse käyttäjälle rooli sekä valinnaisesti päivä, jolloin käyttäjän oikeudet projektiin vanhenevat.
 Lisää eri roolien oikeuksista voi lukea: 
-[https://peke.plab.fi/help/user/permissions.md](https://peke.plab.fi/help/user/permissions.md)
+[https://peke.plab.fi/help/user/permissions.md]
 
 ![Kuva 13](/pekeohjesivukuvat/kuva13.png)
 
@@ -85,7 +85,6 @@ Kloonaa projektikansio koneellesi menemällä halutun projektin sivulle, klikkaa
 ### Komentorivi  
 
 [https://git-scm.com/downloads]
-(https://git-scm.com/downloads)
 
 Avaa tietokoneellasi komentorivi haluamaasi kansioon ja suorita komento “git clone projektisiosoitetähän”. Jotta tämä toimii koneellasi, täytyy sinulla olla Git asennettuna  
 
@@ -102,7 +101,6 @@ Jos kaikki onnistui, kloonattu projekti pitäisi nyt löytyä koneeltasi.  
 ## GitHub Desktop  
 
 [https://github.com/apps/desktop]
-(https://github.com/apps/desktop)
 
 
 Avaa GitHub Desktop sovellus ja klikkaa File valikosta Clone repository  
