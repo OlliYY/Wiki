@@ -2,7 +2,7 @@
 title: 
 description: 
 published: true
-date: 2025-08-14T08:56:49.468Z
+date: 2025-08-14T09:02:31.487Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-14T08:35:59.343Z
@@ -174,3 +174,41 @@ Labels allow you to categorize the project's tasks accordingly. Custom labels ca
 
 Go to the project’s page and on the left select “**Manage**” and the “**Labels**”. After this press the “**New label**” button. 
 ![kuva28.png](/pekeohjesivukuvat/kuva28.png)![kuva29.png](/pekeohjesivukuvat/kuva29.png)
+
+Now you must set the title and if you wish, the description of the label. You should also set the color of the label to help in categorizing. Once you are done simply click on the “**Create label**" button.
+
+![kuva30.png](/pekeohjesivukuvat/kuva30.png)
+
+## Issue Board 
+
+GitLab's Issue Board is a tool designed to help teams manage and track the progress of their work in an organized and collaborative way. It is essentially a kanban-style board that allows users to see, assign, and track issues within a project or repository. 
+
+### Managing the issue board 
+
+Go to the project page and on the left side of said page, click on the “**Plan button**” and then the “**Issue boards**” button.
+
+![kuva31.png](/pekeohjesivukuvat/kuva31.png)
+In the basic view you will see the open and closed columns. You can hide them by clicking on the gear icon on the right side of the screen. 
+
+![kuva32.png](/pekeohjesivukuvat/kuva32.png)
+
+In the menu that opens up you can hide the columns with the “**show open list**” and “**show closed list**” tics. You can also change the name of the board or delete it if you want. Save your changes by clicking on the "**Save changes**” button.
+
+![kuva33.png](/pekeohjesivukuvat/kuva33.png)
+
+Creating a new column 
+
+Click on the “**New list**” button on the “**Issue boards**” page.
+
+![kuva34.png](/pekeohjesivukuvat/kuva34.png)
+
+Now select the label you wish to use and press the “**Add to board**” button.
+![kuva35.png](/pekeohjesivukuvat/kuva35.png)![kuva36.png](/pekeohjesivukuvat/kuva36.png)
+![kuva37.png](/pekeohjesivukuvat/kuva37.png)
+When the new column is added you can move it by dragging and dropping. You can also change the order of the columns in the same manner. 
+
+![kuva38.png](/pekeohjesivukuvat/kuva38.png)
+
+Always remember to move the issues to their corresponding column. An example of this would be to move an issue from the “**TODO**” column to the “**Work In Progress**” column once it is started. This way the board stays up to date and following the project's progress becomes significantly easier. 
+
+![kuva39.png](/pekeohjesivukuvat/kuva39.png)
