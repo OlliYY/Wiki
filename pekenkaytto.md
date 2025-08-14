@@ -2,14 +2,14 @@
 title: 
 description: 
 published: true
-date: 2025-08-14T09:11:45.958Z
+date: 2025-08-14T09:15:20.178Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-14T08:35:59.343Z
 ---
 
 # Peke usage
-<p><strong>Instrugtions:</strong> <a href="https://peke.plab.fi/help" target="_blank">Peke Help - page</a></p>
+<p><strong>Instructions:</strong> <a href="https://peke.plab.fi/help" target="_blank">Peke Help - page</a></p>
 
 ## Introduction 
 
