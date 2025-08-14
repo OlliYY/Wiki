@@ -2,7 +2,7 @@
 title: 
 description: 
 published: true
-date: 2025-08-14T08:15:55.076Z
+date: 2025-08-14T08:21:56.561Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-14T06:41:43.683Z
@@ -35,11 +35,11 @@ Tässä näkymässä sinun tulee antaa projektille jokin nimi. Tämän jälkeen 
 Projektilla on kolme erilaista näkyvyysasetusta:
 
 Projektilla on kolme erilaista näkyvyysasetusta.
-Yksityisessä projektissa **(Private)** jokaiselle jäsenelle täytyy erikseen määrittää oikeudet projektiin. Jos valitset ryhmän **(Group)** Project URL -kohtaan, jokaiselle valitun ryhmän jäsenelle annetaan oikeudet automaattisesti. Ryhmä täytyy kuitenkin luoda ennen uutta projektia, jotta se olisi valittavissa.
+Yksityisessä projektissa (**Private**) jokaiselle jäsenelle täytyy erikseen määrittää oikeudet projektiin. Jos valitset ryhmän **(Group)** Project URL -kohtaan, jokaiselle valitun ryhmän jäsenelle annetaan oikeudet automaattisesti. Ryhmä täytyy kuitenkin luoda ennen uutta projektia, jotta se olisi valittavissa.
 
-Sisäisessä projektissa **(Internal)** oikeudet ovat kaikilla muilla kirjautuneilla käyttäjillä, paitsi ulkoisilla käyttäjillä. Käyttäjätili voidaan erikseen määrittää ulkoiseksi käyttäjäksi. 
+Sisäisessä projektissa (**Internal**) oikeudet ovat kaikilla muilla kirjautuneilla käyttäjillä, paitsi ulkoisilla käyttäjillä. Käyttäjätili voidaan erikseen määrittää ulkoiseksi käyttäjäksi. 
 
-Julkisessa projektissa kaikilla on pääsy projektiin, olit joko kirjautunut käyttäjä tai et. Valitse tämä vain, jos tiedät mitä olet tekemässä.** Älä koskaan jaa salaisuuksia (API-avaimet, salausavaimet...)  julkisesti! Jakaminen saattaa aiheuttaa oikeuksien menettämisen tai pahimmassa tapauksessa kalliin laskun!**
+Julkisessa projektissa kaikilla on pääsy projektiin, olit joko kirjautunut käyttäjä tai et. Valitse tämä vain, jos tiedät mitä olet tekemässä. **Älä koskaan jaa salaisuuksia (API-avaimet, salausavaimet...)  julkisesti! Jakaminen saattaa aiheuttaa oikeuksien menettämisen tai pahimmassa tapauksessa kalliin laskun!**
 
 
 ![Kuva 8](/pekeohjesivukuvat/kuva8.png)
