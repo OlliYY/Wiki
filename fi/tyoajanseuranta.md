@@ -2,7 +2,7 @@
 title: 
 description: 
 published: true
-date: 2025-08-14T09:36:00.202Z
+date: 2025-08-14T09:36:53.760Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-14T09:23:26.582Z
@@ -18,7 +18,7 @@ Kaavio täytetään, jotta ohjaajat ja opettajat voivat tarkastella käytettyjä
 ## Miten työajanseuranta täytetään?
 Työajanseuranta täytetään Excel-kaaviona.
 
-Esimerkki kuva
+Esimerkki kaavio
 ![kuva1.png](/tyoajanseurantakuvat/kuva1.png)
 Voit käyttää valmista pohjaa tai luoda samankaltaisen taulukon seuraamalla alla olevia ohjeita.
 
@@ -35,10 +35,13 @@ Ilmoita sairauspoissaolosta ohjaajalle. Voit olla poissa ilmoituksella korkeinta
 
 ## Miten kirjaan poissaolot?
 Poissaolot (myös sairauspoissaolot) voidaan kirjata eri tavoin, mutta tärkeintä on, että lukija näkee selkeästi, milloin poissaolot ovat tapahtuneet. Poissaolojen syiden kirjaus on valinnaista, mutta suositeltavaa, mikäli et ole erikseen ilmoittanut ohjaajalle poissaolon syytä. Poissaolot kirjataan nollatuntisina.
+
+Esimerkki yhdestä tavasta kirjata poissaolot.
 ![kuva5.png](/tyoajanseurantakuvat/kuva5.png)
 Mikäli olet pitänyt luvanvaraisia lomapäiviä harjoittelun aikana, kirjaa lomapäivät samaa tyyliä noudattaen.
 
 ## Miten etätyöt kirjataan?
 Etätyöt voidaan kirjata eri tavoin, mutta kuten poissaolojen kanssa, tärkeintä on, että lukija näkee selkeästi, milloin etätyöt on tehty ja mitä ne sisälsivät. Jos teet osittaista etätyötä ja vaihtelet työpistettä paljon kotisi ja koulun välillä, kannattaa etätyökirjaus tehdä jo työpäivän alkaessa, jotta tieto välittyy ohjaajalle.
+
 Esimerkki yhdestä tavasta kirjata etätyöt.
 ![kuva6.png](/tyoajanseurantakuvat/kuva6.png)
