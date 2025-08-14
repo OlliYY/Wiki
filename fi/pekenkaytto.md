@@ -1,8 +1,8 @@
 ---
-title: Untitled Page
+title: 
 description: 
 published: true
-date: 2025-08-14T08:14:57.967Z
+date: 2025-08-14T08:15:55.076Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-14T06:41:43.683Z
