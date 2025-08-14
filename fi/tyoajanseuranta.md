@@ -2,7 +2,7 @@
 title: 
 description: 
 published: true
-date: 2025-08-14T09:23:26.582Z
+date: 2025-08-14T09:36:00.202Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-14T09:23:26.582Z
@@ -17,6 +17,8 @@ Kaavio täytetään, jotta ohjaajat ja opettajat voivat tarkastella käytettyjä
 
 ## Miten työajanseuranta täytetään?
 Työajanseuranta täytetään Excel-kaaviona.
+
+Esimerkki kuva
 ![kuva1.png](/tyoajanseurantakuvat/kuva1.png)
 Voit käyttää valmista pohjaa tai luoda samankaltaisen taulukon seuraamalla alla olevia ohjeita.
 
