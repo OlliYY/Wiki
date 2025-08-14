@@ -2,81 +2,77 @@
 title: Untitled Page
 description: 
 published: true
-date: 2025-08-14T08:03:10.300Z
+date: 2025-08-14T08:06:06.170Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-14T06:41:43.683Z
 ---
 
-Peken käyttö  
+## Peken käyttö
 
-Esittely  
+## Esittely
 
-Peke on Lapin ammattikorkeakoulun FrostBit-ohjelmistolaboratorion ylläpitämä GitLab-palvelin, jota koulun henkilökunta sekä opiskelijat voivat käyttää ohjelmistoprojektien hallintaan, versionhallintaan sekä tiimityöskentelyn mahdollistamiseen.  
+Peke on Lapin ammattikorkeakoulun FrostBit-ohjelmistolaboratorion ylläpitämä GitLab-palvelin, jota koulun henkilökunta sekä opiskelijat voivat käyttää ohjelmistoprojektien hallintaan, versionhallintaan sekä tiimityöskentelyn mahdollistamiseen.
 
-Uuden projektin luonti  
+## Uuden projektin luonti
 
-Jotta voit hyödyntää GitLabin tarjoamia ominaisuuksia, sinun täytyy ensin luoda uusi projekti. GitLabin projektia kutsutaan monessa muussa Git-versionhallintaa tarjoavassa palvelussa repositorioksi.  
+Jotta voit hyödyntää GitLabin tarjoamia ominaisuuksia, sinun täytyy ensin luoda uusi projekti. GitLabin projektia kutsutaan monessa muussa Git-versionhallintaa tarjoavassa palvelussa repositorioksi.
 
-Luo uusi projekti valitsemalla Projects-välilehti. Tämän jälkeen klikkaa New project -nappia.  
+Luo uusi projekti valitsemalla **Projects**-välilehti. Tämän jälkeen klikkaa **New project** -nappia.
 
-![](/pekeohjesivukuvat/kuva1.png)
+![Kuva 1](/pekeohjesivukuvat/kuva1.png)![Kuva 2](/pekeohjesivukuvat/kuva2.png)
 
-![](/pekeohjesivukuvat/kuva2.png)
+Tämän jälkeen sinulle aukeaa uusi näkymä, jossa voit luoda joko uuden tyhjän projektin (**Create blank project**), luoda projektin jostain valmiista mallista (**Create from template**) tai tuoda projektin jostain muusta palvelusta (**Import project**). Luodaan uusi projekti klikkaamalla **Create blank project** -nappia.
 
-Tämän jälkeen sinulle aukeaa uusi näkymä, jossa voit luoda joko uuden tyhjän projektin (Create blank project), luoda projektin jostain valmiista mallista (Create from template) tai tuoda projektin jostain muusta palvelusta (Import project). Luodaan uusi projekti klikkaamalla Create blank project -nappia.  
+![Kuva 3](/pekeohjesivukuvat/kuva3.png)  
+![Kuva 5](/pekeohjesivukuvat/kuva5.png)
 
-![](/pekeohjesivukuvat/kuva3.png)
+Tässä näkymässä sinun tulee antaa projektille jokin nimi. Tämän jälkeen valitse **Project URL** -kohdasta projektille nimiavaruus. Nimiavaruus voi olla joko ryhmä tai oma käyttäjänimesi.
 
-![](/pekeohjesivukuvat/kuva5.png)
+![Kuva 4](/pekeohjesivukuvat/kuva4.png)  
+![Kuva 6](/pekeohjesivukuvat/kuva6.png)
 
-Tässä näkymässä sinun tulee antaa projektille jokin nimi. Tämän jälkeen valitse Project URL -kohdasta projektille nimiavaruus. Nimiavaruus voi olla joko ryhmä tai oma käyttäjänimesi.  
+Projektilla on kolme erilaista näkyvyysasetusta:
 
-![](/pekeohjesivukuvat/kuva4.png)
+- **Private** – Jokaiselle jäsenelle täytyy erikseen määrittää oikeudet projektiin. Jos valitset ryhmän (**Group**) Project URL -kohtaan, jokaiselle valitun ryhmän jäsenelle annetaan oikeudet automaattisesti. Ryhmä täytyy kuitenkin luoda ennen uutta projektia.
+- **Internal** – Oikeudet ovat kaikilla muilla kirjautuneilla käyttäjillä, paitsi ulkoisilla käyttäjillä. Käyttäjätili voidaan erikseen määrittää ulkoiseksi käyttäjäksi.
+- **Public** – Kaikilla on pääsy projektiin, olit kirjautunut käyttäjä tai et. Älä koskaan jaa salaisuuksia julkisesti!
 
-![](/pekeohjesivukuvat/kuva6.png)
+![Kuva 8](/pekeohjesivukuvat/kuva8.png)
 
-Projektilla on kolme erilaista näkyvyysasetusta.  
+Tämän jälkeen voit valita:
 
-Yksityisessä projektissa (Private) jokaiselle jäsenelle täytyy erikseen määrittää oikeudet projektiin. Jos valitset ryhmän (Group) Project URL -kohtaan, jokaiselle valitun ryhmän jäsenelle annetaan oikeudet automaattisesti. Ryhmä täytyy kuitenkin luoda ennen uutta projektia, jotta se olisi valittavissa.  
+- Luodaanko projektin juureen uusi **README.md**-tiedosto (_Initialize repository with a README_)
+- Analysoidaanko koodia tietoturvariskien varalta (_Enable Static Application Security Testing (SAST)_)
+- Tarkistetaanko salaisuuksien löytyminen (_Enable Secret Detection_)
 
-Sisäisessä projektissa (Internal) oikeudet ovat kaikilla muilla kirjautuneilla käyttäjillä, paitsi ulkoisilla käyttäjillä. Käyttäjätili voidaan erikseen määrittää ulkoiseksi käyttäjäksi.  
+Tämän jälkeen paina **Luo projekti (Create project)** -nappia.
 
-Julkisessa projektissa kaikilla on pääsy projektiin, olit joko kirjautunut käyttäjä tai et. Valitse tämä vain, jos tiedät mitä olet tekemässä. Älä koskaan jaa salaisuuksia (API-avaimet, salausavaimet...)  julkisesti! Jakaminen saattaa aiheuttaa oikeuksien menettämisen tai pahimmassa tapauksessa kalliin laskun!  
+![Kuva 9](/pekeohjesivukuvat/kuva9.png)  
+![Kuva 10](/pekeohjesivukuvat/kuva10.png)
 
-![](/pekeohjesivukuvat/kuva8.png)
+## Toisten käyttäjien kutsuminen yksityiseen projektiin
 
-Tämän jälkeen voit valita luodaanko projektin juureen uusi README.md markdown-tiedosto (Initialize repository with a README). Valitse tämä, jos olet luomassa täysin uutta projektia, etkä esimerkiksi lisäämässä jo olemassa olevaa koodia kansioon.  
+Mene projektin sivulle ja valitse vasemmalta **Manage** ja **Members**.
 
-Toisena voit valita analysoidaanko koodia tietoturvariskien varalta (Enable Static Application Security Testing (SAST)).  
+![Kuva 11](/pekeohjesivukuvat/kuva11.png)
 
-Kolmantena voit valita tarkistetaanko, että sisältääkö koodisi salaisuuksia (Enable Secret Detection).  
+Kutsutavat:
 
-Tämän jälkeen paina Luo projekti (Create project) -nappia luodaksesi projektin.  
+- **Invite Members** – Kutsu yksittäisiä käyttäjiä
+- **Invite a group** – Kutsu ryhmän jäsenet projektiisi
+- **Import from a project** – Kutsu kaikki käyttäjät toisesta projektista samoilla rooleilla
 
-![](/pekeohjesivukuvat/kuva9.png)
+![Kuva 12](/pekeohjesivukuvat/kuva12.png)
 
-![](/pekeohjesivukuvat/kuva10.png)
+Hae kutsuttava käyttäjä käyttäjänimellä tai syötä sähköpostiosoite, niin kutsu lähetetään sinne.  
+Käytä Lapin AMK:n tapauksessa `@lapinamk.fi`-päätteisiä sähköposteja.  
+Valitse käyttäjälle rooli ja halutessasi määritä päivä, jolloin oikeudet päättyvät.
 
-Toisten käyttäjien kutsuminen yksityiseen projektiin  
+Lisää eri roolien oikeuksista: [https://peke.plab.fi/help/user/permissions.md](https://peke.plab.fi/help/user/permissions.md)
 
-Mene projektin sivulle ja valitse vasemmalta Manage ja Members  
+![Kuva 13](/pekeohjesivukuvat/kuva13.png)
 
-![](/pekeohjesivukuvat/kuva11.png)
-
-Invite Members -napista klikkaamalla voit kutsua yksittäisiä käyttäjiä.  
-
-Invite a group -napista voit kutsua ryhmän jäsenet projektiisi  
-
-Import from a project kutsuu kaikki käyttäjät jostain toisesta projektista. Tässä käyttäjille määritetään samat roolit, kuin heillä on toisessakin projektissa.  
-
-![](/pekeohjesivukuvat/kuva12.png)
-
-Hae kutsuttava käyttäjä käyttäjänimellä tai syötä sähköpostiosoite, niin kutsu lähetetään sinne. Käytä Lapin AMK:n tapauksessa opiskelijoiden ja henkilöstön @lapinamk.fi-päätteisiä sähköposteja. Sen jälkeen valitse käyttäjälle rooli sekä valinnaisesti päivä, jolloin käyttäjän oikeudet projektiin vanhenevat.  
-
-Lisää eri roolien oikeuksista voi lukea: https://peke.plab.fi/help/user/permissions.md  
-
-![](/pekeohjesivukuvat/kuva13.png)
 
 Projektin kloonaus  
 
