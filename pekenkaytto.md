@@ -2,7 +2,7 @@
 title: 
 description: 
 published: true
-date: 2025-08-14T08:55:55.371Z
+date: 2025-08-14T08:56:49.468Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-14T08:35:59.343Z
@@ -25,11 +25,13 @@ Now you should see a new window open where you can create a new project. For thi
 
 ![kuva3.png](/pekeohjesivukuvat/kuva3.png)
 
-![kuva4.png](/pekeohjesivukuvat/kuva4.png)
+![kuva5.png](/pekeohjesivukuvat/kuva5.png)
+
+
 
 In this view you must give the project a name. After doing so select a namespace for your project. The namespace can be a group or your own username. 
 
-![kuva5.png](/pekeohjesivukuvat/kuva5.png)
+![kuva4.png](/pekeohjesivukuvat/kuva4.png)
 
 ![kuva6.png](/pekeohjesivukuvat/kuva6.png)
 
