@@ -2,13 +2,17 @@
 title: 
 description: 
 published: true
-date: 2025-08-14T08:33:56.230Z
+date: 2025-08-14T09:09:34.772Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-14T06:41:43.683Z
 ---
 
 ## Peken käyttö
+
+
+<p><strong>Ohjeet:</strong> <a href="https://peke.plab.fi/help" target="_blank">Peke Help -sivusto</a></p>
+
 
 ## Esittely
 
