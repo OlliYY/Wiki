@@ -2,7 +2,7 @@
 title: 
 description: 
 published: true
-date: 2025-08-14T09:33:33.692Z
+date: 2025-08-14T09:33:55.904Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-14T09:33:33.692Z
@@ -14,8 +14,8 @@ dateCreated: 2025-08-14T09:33:33.692Z
 ## Why to log work hours?
 Work hour tracking helps assess whether the schedule is being followed and it also supports the planning of future projects. Internship contracts usually define a target number of hours corresponding to the number of credits.
 The logbook is filled in so that supervisors and teachers can review the hours spent and tasks completed, which makes it easier to calculate the earned credits. It’s recommended to update the Excel sheet at least once a week.
-## 
-How is work time log filled?
+
+## How is work time log filled?
 Work time tracking is filled in as an Excel table.
 
 Example table.
