@@ -2,7 +2,7 @@
 title: 
 description: 
 published: true
-date: 2025-08-14T08:21:56.561Z
+date: 2025-08-14T08:31:42.353Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-14T06:41:43.683Z
@@ -44,13 +44,13 @@ Julkisessa projektissa kaikilla on pääsy projektiin, olit joko kirjautunut kä
 
 ![Kuva 8](/pekeohjesivukuvat/kuva8.png)
 
-Tämän jälkeen voit valita luodaanko projektin juureen uusi README.md markdown-tiedosto (Initialize repository with a README). Valitse tämä, jos olet luomassa täysin uutta projektia, etkä esimerkiksi lisäämässä jo olemassa olevaa koodia kansioon.
-Toisena voit valita analysoidaanko koodia tietoturvariskien varalta **(Enable Static Application Security Testing (SAST)).**
-Kolmantena voit valita tarkistetaanko, että sisältääkö koodisi salaisuuksia **(Enable Secret Detection).** 
-Tämän jälkeen paina Luo projekti **(Create project)** -nappia luodaksesi projektin.
+Tämän jälkeen voit valita luodaanko projektin juureen uusi README.md markdown-tiedosto (**Initialize repository with a README**). Valitse tämä, jos olet luomassa täysin uutta projektia, etkä esimerkiksi lisäämässä jo olemassa olevaa koodia kansioon.
+Toisena voit valita analysoidaanko koodia tietoturvariskien varalta (**Enable Static Application Security Testing (SAST).**)
+Kolmantena voit valita tarkistetaanko, että sisältääkö koodisi salaisuuksia (**Enable Secret Detection**). 
+Tämän jälkeen paina Luo projekti (**Create project**) -nappia luodaksesi projektin.
 
 
-Tämän jälkeen paina **Luo projekti (Create project)** -nappia.
+Tämän jälkeen paina Luo projekti (**Create project**) -nappia.
 
 ![Kuva 9](/pekeohjesivukuvat/kuva9.png)  
 ![Kuva 10](/pekeohjesivukuvat/kuva10.png)
@@ -70,11 +70,9 @@ Mene projektin sivulle ja valitse vasemmalta **Manage** ja **Members**.
 
 Hae kutsuttava käyttäjä käyttäjänimellä tai syötä sähköpostiosoite, niin kutsu lähetetään sinne. Käytä Lapin AMK:n tapauksessa opiskelijoiden ja henkilöstön @lapinamk.fi-päätteisiä sähköposteja. Sen jälkeen valitse käyttäjälle rooli sekä valinnaisesti päivä, jolloin käyttäjän oikeudet projektiin vanhenevat.
 Lisää eri roolien oikeuksista voi lukea: 
-
 [https://peke.plab.fi/help/user/permissions.md](https://peke.plab.fi/help/user/permissions.md)
 
 ![Kuva 13](/pekeohjesivukuvat/kuva13.png)
-
 
 ## Projektin kloonaus  
 
@@ -84,9 +82,10 @@ Kloonaa projektikansio koneellesi menemällä halutun projektin sivulle, klikkaa
 
 ![](/pekeohjesivukuvat/kuva14.png)
 
-Komentorivi  
+### Komentorivi  
 
-https://git-scm.com/downloads  
+[https://git-scm.com/downloads]
+(https://git-scm.com/downloads)
 
 Avaa tietokoneellasi komentorivi haluamaasi kansioon ja suorita komento “git clone projektisiosoitetähän”. Jotta tämä toimii koneellasi, täytyy sinulla olla Git asennettuna  
 
@@ -102,7 +101,9 @@ Jos kaikki onnistui, kloonattu projekti pitäisi nyt löytyä koneeltasi.  
 
 ## GitHub Desktop  
 
-https://github.com/apps/desktop  
+[https://github.com/apps/desktop]
+(https://github.com/apps/desktop)
+
 
 Avaa GitHub Desktop sovellus ja klikkaa File valikosta Clone repository  
 
@@ -124,17 +125,17 @@ Jos kaikki onnistui, projekti löytyy nyt koneeltasi.  
 
 ## Issues  
 
-GitLabin Issue on eräänlainen tehtävä, joita käyttäjät voivat määrittää projekteissa. Ne ovat tärkeä osa GitLabin projektinhallintaa. Niiden avulla pystytään ylläpitämään tehtävälistaa, määräämään tehtäviä eri käyttäjille sekä seuraamaan projektin etenemistä.  
+GitLabin **Issue** on eräänlainen tehtävä, joita käyttäjät voivat määrittää projekteissa. Ne ovat tärkeä osa GitLabin projektinhallintaa. Niiden avulla pystytään ylläpitämään tehtävälistaa, määräämään tehtäviä eri käyttäjille sekä seuraamaan projektin etenemistä.  
 
 ### Issuen luonti  
 
-Mene projektin sivulle ja valitse vasemmalta Plan ja Issues. Tämän jälkeen valitse New Issue.  
+Mene projektin sivulle ja valitse vasemmalta **Plan** ja **Issues**. Tämän jälkeen valitse **New Issue**.  
 
 ![](/pekeohjesivukuvat/kuva23.png)
 
 ![](/pekeohjesivukuvat/kuva24.png)
 
-Määritä issuen tyyppi (**Type)** ja anna sille otsikko **(Title)**. **Description**-kohtaan voit antaa laajemman kuvauksen tehtävästä.  
+Määritä issuen tyyppi (**Type**) ja anna sille otsikko (**Title**). **Description**-kohtaan voit antaa laajemman kuvauksen tehtävästä.  
 
 **Assignee**-kohdasta voit valita käyttäjän, jolle tehtävä määritetään.  
 
@@ -152,7 +153,7 @@ Määritä issuen tyyppi (**Type)** ja anna sille otsikko **(Title)**. **Descrip
 
 ![](/pekeohjesivukuvat/kuva26.png)
 
-Kun issue on valmis, klikkaa** Create issue** -nappia. Tämän jälkeen issuen voi löytää **Plan/Issues** välilehdeltä.  
+Kun issue on valmis, klikkaa **Create issue** -nappia. Tämän jälkeen issuen voi löytää **Plan/Issues** välilehdeltä.  
 
 ![](/pekeohjesivukuvat/kuva27.png)
 
@@ -162,11 +163,9 @@ Nimikkeillä (Labels) voit lajitella projektin eri tehtäviä. Mukautettuja nimi
 
 ### Nimikkeiden (Label) luonti  
 
-Mene projektin sivulle ja valitse vasemmalta **Manage** ja** Labels**. Tämän jälkeen paina** New label** –nappia.  
+Mene projektin sivulle ja valitse vasemmalta **Manage** ja **Labels**. Tämän jälkeen paina **New label** –nappia.  
 
-![](http://localhost/pekeohjesivukuvat/kuva28.png)
-
-![](http://localhost/pekeohjesivukuvat/kuva29.png)
+![](http://localhost/pekeohjesivukuvat/kuva28.png)![](http://localhost/pekeohjesivukuvat/kuva29.png)
 
 Määritä nimikkeelle otsikko (**Title**) sekä halutessasi kuvaus (**Description**). Valitse myös nimikettä kuvaava väri. Luo uusi nimike painamalla **Create label** –nappia.  
 
@@ -177,7 +176,7 @@ Määritä nimikkeelle otsikko (**Title**) sekä halutessasi kuvaus (**Descripti
 Issue-taulu on tehokas työkalu projektin tehtävien hallinnointiin. Se tarjoaa selkeän, kanban-tyyppisen näkymän projektin työtilanteesta.  
 ### Issue boardin hallinnointi  
 
-Mene projektin sivulle ja valitse vasemmalta** Plan** ja **Issue boards**.  
+Mene projektin sivulle ja valitse vasemmalta **Plan** ja **Issue boards**.  
 
 ![](/pekeohjesivukuvat/kuva31.png)
 
@@ -185,7 +184,7 @@ Perusnäkymässä sinulla on näkyvissä Open ja Closed –sarakkeet. Voit piilo
 
 ![](/pekeohjesivukuvat/kuva32.png)
 
-Avautuvasta valikosta voit piilottaa sarakkeet ottamalla ruksin pois **Show the Open list** ja **Show the Closed list** -kohdista. Täältä voit myös vaihtaa Issue boardin nimen tai poistaa Issue boardin. Tallenna muutokset painamalla** Save changes** -nappia.  
+Avautuvasta valikosta voit piilottaa sarakkeet ottamalla ruksin pois **Show the Open list** ja **Show the Closed list** -kohdista. Täältä voit myös vaihtaa Issue boardin nimen tai poistaa Issue boardin. Tallenna muutokset painamalla **Save changes** -nappia.  
 
 ![](/pekeohjesivukuvat/kuva33.png)
 
