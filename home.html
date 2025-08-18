@@ -1,45 +1,123 @@
 <!--
-title: Untitled Page
+title: home en
 description: 
 published: true
-date: 2025-08-13T07:25:28.677Z
+date: 2025-08-18T09:46:54.541Z
 tags: 
 editor: code
-dateCreated: 2025-08-13T07:14:08.839Z
+dateCreated: 2025-07-31T16:03:44.110Z
 -->
-
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Welcome to Agile Wiki</title>
+  <title>Agile Wiki - Homepage</title>
   <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    main {
+      flex: 1;
+      padding: 0 1em 2em;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      margin: 1em 0;
+      display: block;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 3em;
+      margin-bottom: 0.5em;
+      color: #005a9c;
+    }
+
+    p.intro {
+      text-align: center;
+      margin-bottom: 2em;
+      font-size: 1.1em;
+      color: #555;
+    }
+
+    .link-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+      justify-items: center;
+      margin-bottom: 3em;
+      padding: 0 1em;
+    }
+
+    .link-cards a {
+      width: 100%;
+      max-width: 280px;
+      border-radius: 12px;
+      padding: 2em;
+      text-align: center;
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+      transition: background-color 0.2s;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      user-select: none;
+    }
+
+    .link-cards a:hover {
+      filter: brightness(95%);
+    }
+
+    .interns {
+      background-color: #d1e7dd;
+    }
+
+    .mentors {
+      background-color: #cfe2ff;
+    }
+
+    .project-work {
+      background-color: #fff3cd;
+    }
+
     .card-container {
       display: flex;
       flex-wrap: wrap;
+      gap: 2rem;
       justify-content: center;
-      gap: 1.5rem;
-      margin: 2em auto;
-      max-width: 1200px;
+      max-width: 1000px;
+      margin: 0 auto 3em;
     }
 
     .card {
-      background-color: #f8f9fa;
-      border: 1px solid #ddd;
-      border-radius: 8px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-      width: 280px;
-      transition: transform 0.2s ease;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      width: 300px;
       display: flex;
       flex-direction: column;
-      overflow: hidden;
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
     }
 
     .card img {
       width: 100%;
-      height: 160px;
+      height: auto;
       object-fit: cover;
     }
 
@@ -51,92 +129,99 @@ dateCreated: 2025-08-13T07:14:08.839Z
       justify-content: space-between;
     }
 
-    .card h2 {
-      font-size: 1.2em;
-      margin: 0 0 0.5em 0;
+    .card-content h2 {
+      margin: 0 0 0.5em;
+      color: #005a9c;
     }
 
-    .card p {
+    .card-content p {
       flex-grow: 1;
-      font-size: 0.95em;
       margin-bottom: 1em;
+      color: #555;
     }
 
-    .card a {
-      text-decoration: none;
-      color: #007bff;
-      font-weight: bold;
+    .card-content a {
       align-self: flex-start;
+      text-decoration: none;
+      color: #007BFF;
+      font-weight: bold;
+      transition: color 0.2s;
     }
 
-    .card:hover {
-      transform: translateY(-5px);
+    .card-content a:hover {
+      color: #0056b3;
+      text-decoration: underline;
     }
 
-    @media (max-width: 768px) {
-      .card {
-        width: 100%;
-      }
+    footer {
+      background: #005a9c;
+      color: white;
+      text-align: center;
+      padding: 1em;
+      margin-top: auto;
+    }
+
+    details {
+      margin: 1em 0;
     }
   </style>
 </head>
+
 <body>
+  <main>
+    <img src="/kuvaetusivulle.jpg" alt="Homepage Image" />
 
-<p>
-  <img src="/kuvaetusivulle.jpg" alt="cover image" style="width: 100%; height: auto; max-height: 400px; object-fit: cover; margin: 1em 0;">
-</p>
+    <details>
+      <summary>Table of Contents</summary>
+      <ul>
+        <li><a href="/en/Harjoittelijat">Interns</a></li>
+        <li><a href="/en/Mentors">Mentors</a></li>
+        <li><a href="/en/ProjectWork">Project Work</a></li>
+        <li><a href="#Articles">Articles</a></li>
+        <li><a href="#contact-info">Contact Information</a></li>
+      </ul>
+    </details>
 
-<h1 style="text-align: center;">Welcome to the Agile Wiki</h1>
-<p style="text-align: center; margin-bottom: 1.5em;">Here you’ll find all current topics and more.</p>
+    <h1>Welcome to Agile Wiki repo gitti testi</h1>
+    <p class="intro">Here you'll find all the latest information and more.</p>
 
-<!-- Link cards -->
-<div style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center;">
-
-  <a href="/en/Harjoittelijat" style="flex: 1 1 250px; max-width: 280px; background-color: #d1e7dd; border-radius: 12px; padding: 2em; text-align: center; text-decoration: none; color: #000; font-weight: bold;">
-    Interns
-  </a>
-
-  <a href="/en/Ohjaajat" style="flex: 1 1 250px; max-width: 280px; background-color: #cfe2ff; border-radius: 12px; padding: 2em; text-align: center; text-decoration: none; color: #000; font-weight: bold;">
-    Supervisors
-  </a>
-
-  <a href="/en/Projektityoskentely" style="flex: 1 1 250px; max-width: 280px; background-color: #fff3cd; border-radius: 12px; padding: 2em; text-align: center; text-decoration: none; color: #000; font-weight: bold;">
-    Project Work
-  </a>
-
-</div>
-
-<!-- Article cards -->
-<h1 id="Artikkelit" style="text-align: center; margin-top: 3em;">Articles</h1>
-
-<div class="card-container">
-  <div class="card">
-    <img src="/chatgpt_image_26._heinäk._2025_klo_19.12.23.png" alt="Article 1" />
-    <div class="card-content">
-      <h2>Article 1</h2>
-      <p>Introduction to software development.</p>
-      <a href="sivu1.html">Read more</a>
+    <div class="link-cards">
+      <a href="/en/Harjoittelijat" class="interns">Interns</a>
+      <a href="/en/Ohjaajat" class="mentors">Mentors</a>
+      <a href="/en/Projektityoskentely" class="project-work">Project Work</a>
     </div>
-  </div>
 
-  <div class="card">
-    <img src="/chatgpt_image_26._heinäk._2025_klo_19.16.52.png" alt="Article 2" />
-    <div class="card-content">
-      <h2>Article 2</h2>
-      <p>Best practices in team collaboration for IT projects.</p>
-      <a href="sivu2.html">Read more</a>
+    <h1 id="Articles">Articles</h1>
+    <div class="card-container">
+      <div class="card">
+        <img src="/chatgpt_image_26._heinäk._2025_klo_19.12.23.png" alt="Article 1" />
+        <div class="card-content">
+          <h2>Article 1</h2>
+          <p>The first article about software development.</p>
+          <a href="/en/sivu1">Read more</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="/chatgpt_image_26._heinäk._2025_klo_19.16.52.png" alt="Article 2" />
+        <div class="card-content">
+          <h2>Article 2</h2>
+          <p>Best practices for teamwork in IT projects.</p>
+          <a href="page2.html">Read more</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="/chatgpt_image_26._heinäk._2025_klo_19.17.03.png" alt="Article 3" />
+        <div class="card-content">
+          <h2>Article 3</h2>
+          <p>Project planning and sprint management.</p>
+          <a href="page3.html">Read more</a>
+        </div>
+      </div>
     </div>
-  </div>
-
-  <div class="card">
-    <img src="/chatgpt_image_26._heinäk._2025_klo_19.17.03.png" alt="Article 3" />
-    <div class="card-content">
-      <h2>Article 3</h2>
-      <p>Project planning and sprint management.</p>
-      <a href="sivu3.html">Read more</a>
-    </div>
-  </div>
-</div>
-
+  </main>
 </body>
 </html>
+
+
